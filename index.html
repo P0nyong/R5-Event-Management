@@ -6,7 +6,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -88,12 +90,9 @@
         </ul>
     </div>
     <!-- push pin -->
-    <div class="">
-        <nav  class=" pushpin-demo-nav">
-            <div class="nav-wrapper  blue">
+        <nav class="pushpin-demo-nav">
+            <div class="nav-wrapper black">
                 <div class="container">
-                    <span class="white-text" ><i class="fas fa-phone-square"></i>
-                        0917-123-4567 || <i class="fas fa-envelope-square yellow-text"></i> r5event@gmail.com</span>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li>
                             <a href="#!">SIGN IN</a>
@@ -105,7 +104,28 @@
                 </div>
             </div>
         </nav>
-    </div>
+
+    <!-- <div class="">
+        <nav  class=" pushpin-demo-nav">
+            <div class="nav-wrapper  blue">
+                <div class="container">
+                    <span class="white-text" ><i class="fab fa-phone-square"></i>
+                        0917-123-4567 || <i class="fab fa-envelope-square yellow-text"></i> r5event@gmail.com</span>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#!">SIGN IN</a>
+                        </li>
+                        <li>
+                            <a href="#!">SIGN UP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+
+
+
 
     <!-- content -->
     <!-- SLIDER -->
@@ -115,7 +135,7 @@
                 <img src="img/carousel1.jpg">
                 <!-- CENTER ALIGN CAPTION -->
                 <div class="caption center-align">
-                    <h3 class="black-text">Center Caption</h3>
+                    <h3 class="black-text">Concert</h3>
                     <h5 class="black-text">Lorem ipsum dolor sit amet.</h5>
                 </div>
             </li>
@@ -123,7 +143,7 @@
                 <img src="img/carousel2.jpg">
                 <!-- LEFT ALIGN CAPTION -->
                 <div class="caption left-align">
-                    <h3>Left Align Caption</h3>
+                    <h3>Wedding</h3>
                     <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
                 </div>
             </li>
@@ -131,7 +151,7 @@
                 <img src="img/carousel3.jpg">
                 <!-- RIGHT ALIGN CAPTION -->
                 <div class="caption right-align">
-                    <h3>Right Align Caption</h3>
+                    <h3>Churba</h3>
                     <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
                 </div>
             </li>
@@ -386,7 +406,7 @@
             // carousel slider
             $('.slider').slider({
                 indicators: true,
-                height: 400,
+                height: 600,
                 transition: 500,
                 interval: 6000
             });
@@ -406,6 +426,8 @@
                     bottom: $target.offset().top + $target.outerHeight() - $this.height()
                 });
             });
+
+            
 
         });
     </script>
