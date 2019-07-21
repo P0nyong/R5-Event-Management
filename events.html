@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Oswald|Roboto+Slab&display=swap" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="css/event.css" />
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>R5 Event Management</title>
+</head>
+
+<body class="grey lighten-3">
+    <!-- Navbar -->
+    <div class="navbar-fixed">
+        <nav class="black nav-wrapper">
+            <div class="container">
+                <a href="index.html" class="brand-logo left" style="color: yellow;"><img class="responsive-img"
+                        id="logo" src="img/r5.png" style="width: 50px; margin-top: 2px;"> EVENT MEDIA CORP.</a>
+                <div id="" class="right hide-on-small-and-down">
+                    <button class="btn black-text yellow waves-effect waves-black">BOOK NOW</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="navbar-fixed">
+        <nav class="grey darken-4">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a class="button-collapse" data-activates="mobile-nav" href="#">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        
+
+                        <!-- DROPDOWN TRIGGER -->
+                        <li>
+                            <a class="dropdown-button" data-activates="my-dropdown" href="#!">Dropdown
+                                <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                        </li>
+                        <!-- ICON LINK -->
+                        <li>
+                            <a href="#">
+                                <i class="material-icons">person</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-nav">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="events.html">Events</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- DROPDOWN MENU -->
+        <ul id="my-dropdown" class="dropdown-content">
+            <li>
+                <a href="#">Ronnie</a>
+            </li>
+            <li>
+                <a href="#">Maureen</a>
+            </li>
+            <li>
+                <a href="#">Ochie</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- push pin -->
+        <nav class="pushpin-demo-nav">
+            <div class="nav-wrapper black">
+                <div class="container">
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#!">SIGN IN</a>
+                        </li>
+                        <li>
+                            <a href="#!">SIGN UP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <!-- <div class="">
+        <nav  class=" pushpin-demo-nav">
+            <div class="nav-wrapper  blue">
+                <div class="container">
+                    <span class="white-text" ><i class="fab fa-phone-square"></i>
+                        0917-123-4567 || <i class="fab fa-envelope-square yellow-text"></i> r5event@gmail.com</span>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#!">SIGN IN</a>
+                        </li>
+                        <li>
+                            <a href="#!">SIGN UP</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+
+
+
+   <!-- content -->
+<section class="section center">
+  <h1>Events and Bookings</h1>
+</section>
+<div class="divider">
+
+</div>
+<section class="section col s12 center">
+  <div class="row" style="padding-top: 20px;">
+      <div class="col s12 m6 l6">
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="img/slider-1.jpg">
+              <!-- LEFT ALIGN CAPTION -->
+              <div class="caption left-align">
+                <h3>Enjoy the Whole Night</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+              </div>
+            </li>
+            <li>
+              <img src="img/slider-2.jpg">
+              <!-- RIGHT ALIGN CAPTION -->
+              <div class="caption right-align">
+                <h3>Upcoming Event</h3>
+                <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+              </div>
+            </li>
+          </ul>
+        </div>  
+      </div>
+      <div class="col s12 m6 l6" style="padding-top: 10px;">
+              <h3 style="text-align: left;">CREATIVITY BASED ON</h3>
+              <h5 class="yellow-text" style="text-align: left;">AWARD SHOW</h3>
+              <p class="flow-text" style="padding-top: 20px; text-align: left;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit aperiam temporibus placeat maiores ullam eum ut suscipit illo voluptatibus nostrum iste alias autem dignissimos, sed illum molestias! Incidunt quam alias numquam neque nesciunt obcaecati minus qui quas sequi, accusamus pariatur fugit? Ipsa, architecto non cumque itaque quas facilis ut?</p>
+              <br>
+              <div style="text-align: left;">
+                  <a href="bookingform.html" class="btn btn-large waves-effect pulse black-text yellow">Book Now</a>
+               </div>
+            </div>    
+        </div>
+  </div>
+  <div class="divider"></div>
+</section>
+<!-- Section Search  -->
+<section class="section col s12 center grey lighten-2">
+    <h3>FULL EVENTS SCHEDULE</h3>
+    <div class="divider"></div>
+    <br>
+    <div class="container section event-search l8">
+        <form class="col s12">
+            <div class="row">
+              <div class="input-field col l4 s12">
+                <input placeholder="Search" id="search-event" type="text" class="validate">
+                <label for="search-event">Search Keyword</label>
+              </div>
+              <div class="input-field col l3 s12">
+                <select name="location" id="location">
+                  <option value="" disabled selected>ALL LOCATION</option>
+                  <option value="quezon_city">Quezon City</option>
+                  <option value="pasig_city">Pasig City</option>
+                  <option value="cabanatuan_city">Cabanatuan City</option>
+                </select>
+                <label for="location">EVENT LOCATION</label>
+              </div>
+              <div class="input-field col l3 s12">
+                <select name="event_month" id="event-month">
+                    <option value="" disabled selected>ALL EVENTS </option>
+                    <option value="">August 2019</option>
+                    <option value="">September 2019</option>
+                    <option value="">October 2019</option>
+                    <option value="">November 2019</option>
+                </select>
+                <label for="event-month">EVENT MONTH</label>
+              </div>
+              <div class="col l2 s12">
+                <a id="search" class="btn btn-large btn-extend yellow black-text">SEARCH</a>
+              </div>
+            </div>
+        </form>
+    </div>
+  </section>
+  <div class="divider"></div>
+    <!-- Section FILTERS and Cards -->
+  <section id="filters" class="section" style="padding-top: 20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col l3 s12 white" style="border-radius: 10px; margin-right: 10px; margin-top: 10px;">
+          <h5 class="center">Filters</h5>
+            <div class="divider"></div>
+              
+            <h6>Seat Features</h6>
+            <p>
+                <input type="checkbox" class="filled-in" name="All" id="all" checked>
+                <label for="all">All</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="standing" id="standing">
+                <label for="standing">Standing</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="seating" id="seating">
+                <label for="seating">Parties</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="lounge" id="lounge">
+                <label for="lounge">VIP Lounge</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="wheelchair" id="wheelchair">
+                <label for="wheelchair">Wheelchair Accessible</label>
+            </p>
+            <div class="divider"></div>
+            <h6>Category</h6>
+            <p>
+                <input type="checkbox" class="filled-in" name="all" id="all" checked>
+                <label for="all">All</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="sports" id="sports">
+                <label for="sports">Sports</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="parties" id="parties">
+                <label for="parties">Parties</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="theater" id="theater">
+                <label for="theater">Theater</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="concert" id="concert">
+                <label for="concert">Concert</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="conference" id="conference">
+                <label for="conference">Conference/Meeting</label>
+            </p>
+            <p>
+                <input type="checkbox" class="filled-in" name="conference" id="conference">
+                <label for="conference">Wedding</label>
+            </p>
+            <div class="divider"></div>
+            <h6>Price Range</h6>
+              <span class="grey-text">&#8369; 100 - 100,000</span>
+            <p class="range-field">
+                <input type="range" min="100" max="100000">
+            </p>
+            <div class="divider"></div>
+            <div class="input-field" style="padding-top:2px;">
+              <select name="location" id="pax">
+                <option value="" disabled selected>PAX</option>
+                <option value="100">100 - 200 PAX</option>
+                <option value="300">300 - 400 PAX</option>
+                <option value="500">400 - 500 PAX</option>
+              </select>
+              <label for="pax">No. of Pax</label>
+            </div>
+            <h6>Add tags</h6>
+            <div class="chips-input"></div>
+            <br>
+            <div class="center">
+              <input type="submit" value="Filter" class="btn yellow">
+            </div>
+            <br>
+          </div>
+  
+          <!-- RESULTS -->
+        <div class="col l8 s12 white" style="border-radius: 10px; margin-top: 10px;">
+          <h5>Showing all records</h5>
+          <p class="grey-text">Showing 1-5 of 100</p>
+          <div class="divider"></div>
+          <div class="row"> 
+            <div class="col s12 m12" style="padding-top: 5px;">
+  
+              <div class="card">
+                  <div class="card-image">
+                      <img src="img/img1.jpg" alt="ind">
+                      <span class="card-title">Sports</span>
+                      <a href="bookform.html" class="btn btn-floating halfway-fab waves-effect waves-light tooltipped" data-position="top" data-tooltip="Book Event Now!">
+                        <i class="material-icons black">add</i>
+                      </a>
+                  </div>
+                  <div class="card-content">
+                    <p>Ratings</p>
+                      <span class="checked"><i class="material-icons">star</i></span>
+                      <span class="checked"><i class="material-icons">star</i></span>
+                      <span class="checked"><i class="material-icons">star</i></span>
+                      <span><i class="material-icons">star</i></span>
+                      <span><i class="material-icons">star</i></span>
+                    
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                      voluptatem corporis iusto sint?</p>
+                  </div>
+              </div>
+  
+       
+            <div class="card">
+                <div class="card-image">
+                    <img src="img/img2.jpg" alt="ind">
+                    <span class="card-title">Theater</span>
+                    <a href="bookform.html" class="btn btn-floating halfway-fab waves-effect waves-light tooltipped" data-position="top" data-tooltip="Book Event Now!">
+                        <i class="material-icons black">add</i>
+                    </a>
+                  </div>
+                <div class="card-content">
+                    <p>Ratings</p>
+                    <span class="checked"><i class="material-icons">star</i></span>
+                    <span class="checked"><i class="material-icons">star</i></span>
+                    <spans><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+  
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                      voluptatem corporis iusto sint?</p>
+                </div>
+            </div>
+                
+     
+            <div class="card">
+              <div class="card-image">
+                  <img src="img/img3.jpg" alt="ind">
+                  <span class="card-title">Communities</span>
+                  <a href="bookform.html" class="btn btn-floating halfway-fab waves-effect waves-light  tooltipped" data-position="top" data-tooltip="Book Event Now!">
+                      <i class="material-icons black">add</i>
+                  </a>
+                </div>
+              <div class="card-content">
+                  <p>Ratings</p>
+                  <span class="checked"><i class="material-icons">star</i></span>
+                  <span class="checked"><i class="material-icons">star</i></span>
+                  <span class="checked"><i class="material-icons">star</i></span>
+                  <span class="checked"><i class="material-icons">star</i></span>
+                  <span class="checked"><i class="material-icons">star</i></span>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                    voluptatem corporis iusto sint?</p>
+              </div>
+            </div>
+  
+  
+            <div class="card">
+              <div class="card-image">
+                  <img src="img/header-2.jpg" alt="ind">
+                  <span class="card-title">Wedding</span>
+                  <a href="bookform.html" class="btn btn-floating halfway-fab waves-effect waves-light  tooltipped" data-position="top" data-tooltip="Book Event Now!">
+                      <i class="material-icons black">add</i>
+                  </a>
+                </div>
+              <div class="card-content">
+                  <p>Ratings</p>
+                    <span class="checked"><i class="material-icons">star</i></span>
+                    <span class="checked"><i class="material-icons">star</i></span>
+                    <spans><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+  
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                    voluptatem corporis iusto sint?</p>
+              </div>
+            </div>
+  
+  
+              <div class="card">
+                <div class="card-image">
+                    <img src="img/event-cover.jpg" alt="ind">
+                    <span class="card-title">Parties</span>
+                    <a href="bookform.html"  class="btn btn-floating halfway-fab waves-effect waves-light tooltipped" data-position="top" data-tooltip="Book Event Now!">
+                        <i class="material-icons black">add</i>
+                    </a>
+                  </div>
+                <div class="card-content">
+                    <p>Ratings</p>
+                    <span class="checked"><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></span>
+                    <span><i class="material-icons">star</i></sp>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                      voluptatem corporis iusto sint?</p>
+                </div>
+              </div>
+          </div>  
+  
+          <!-- PAGINATION -->
+            <ul class="pagination">
+              <li class="disabled">
+                <a href="#!">
+                  <i class="material-icons">chevron_left</i>
+                </a>
+              </li>
+              <li class="waves-effect">
+                <a href="#!">1</a>
+              </li>
+              <li class="waves-effect active">
+                <a href="#!">2</a>
+              </li>
+              <li class="waves-effect">
+                <a href="#!">3</a>
+              </li>
+              <li class="waves-effect">
+                <a href="#!">4</a>
+              </li>
+              <li class="waves-effect">
+                <a href="#!">5</a>
+              </li>
+              <li class="waves-effect">
+                <a href="#!">
+                  <i class="material-icons">chevron_right</i>
+                </a>
+              </li>
+            </ul>         
+          </div>        
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- DEALS -->
+  <section class="section container">
+    <div class="row">
+      <div class="col s12 center">
+          <h3>SHOW SNAPSHOTS</h3>
+          <div class="divider"></div>
+      </div>
+    </div>
+      <!-- TABS -->
+          <div class="row">
+              <div class="col s12">
+                  <ul class="tabs yellow">
+                  <li class="tab col s3 ">
+                      <a href="#tab1" class="black-text">August</a>
+                  </li>
+                  <li class="tab col s3">
+                      <a href="#tab2" class="black-text">September</a>
+                  </li>
+                  <li class="tab col s3">
+                    <a href="#tab3" class="black-text">October</a>
+                  </li>
+                  <li class="tab col s3">
+                      <a href="#tab4" class="black-text">November</a>
+                  </li>
+                  </ul>
+              </div>
+              <div id="tab1" class="row">
+                <div class="s12 m4">
+                    <div id="right-pane" class="col s12 m6 l6 center" >
+                          <figure><img class="responsive-img" src="img/wedding-party-2.png" alt="ind"></figure>
+                      </div>   
+                      <div id="left-pane" class="col s12 m6 l6" style="padding: 40px">
+                          <h4 class="center">Wedding Party</h4>
+                          <p class="center">Marnie McCloud and Jack Blackwood first crossed paths at a mutual friend’s party. After a crazy night of dancing, drinking, and getting to know each other, the two instantly knew they had to meet up again. That was five years ago, and since then a single day hasn’t passed that they haven’t spent together.</p>
+                          <p class="right-align"><em>- Marnie & Jack</em></p>
+                      </div>
+                  </div> 
+            </div>  
+          <!-- TAB 2 Starts here -->
+          <div id="tab2" class="row">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img src="img/carousel-1.jpg" alt="ind">
+                  <span class="card-title">Card Image</span>
+                </div>
+                
+                <div class="card-content">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                          voluptatem corporis iusto sint?</p>
+                        </div>
+                        <div class="card-action">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>   
+                </div>   
+          </div>
+          <!-- TAB3 BEGINS HERE -->
+          <div id="tab3" class="row">
+            <div class="col s12 m4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img src="img/carousel-3.jpg" alt="ind">
+                          <span class="card-title">Card Image</span>
+                      </div>
+                      
+                      <div class="card-content">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                          voluptatem corporis iusto sint?</p>
+                      </div>
+                      <div class="card-action">
+                          <a href="#">Read More</a>
+                      </div>
+                    </div>      
+                  </div>
+                  <div class="col s12 m4">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="img/carousel-2.jpg" alt="ind">
+                          <span class="card-title">Card Image</span>
+                        </div>
+                        
+                        <div class="card-content">
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                            voluptatem corporis iusto sint?</p>
+                          </div>
+                          <div class="card-action">
+                          <a href="#">Read More</a>
+                      </div>
+                  </div>   
+              </div>   
+              <div class="col s12 m4">
+                <div class="card">
+                      <div class="card-image">
+                      <img src="img/carousel-1.jpg" alt="ind">
+                      <span class="card-title">Card Image</span>
+                      </div>
+                      
+                      <div class="card-content">
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi harum enim inventore ullam expedita nesciunt ea
+                          voluptatem corporis iusto sint?</p>
+                      </div>
+                      <div class="card-action">
+                      <a href="#">Read More</a>
+                      </div>
+                  </div>   
+              </div>   
+          </div>
+      </div>
+      <div id="tab4" class="row">
+          <div class="s12 m4">
+              <div id="left-pane" class="col s12 m6 l6" style="padding: 20px">
+                  <h4 class="center">Party</h4>
+                  <p class="center">It takes all kinds of kinds to make this crazy, beautiful world spin and while there is no one personality type that’s better than the next, it takes someone outgoing to liven up a space and add immediate energy. Is that you? If you’ve ever wondered how a party atmosphere changes the second you walk in the door, read on.</p>
+              </div>
+              <div id="right-pane" class="col s12 m6 l6 center" >
+                    <figure><img class="responsive-img" src="img/party.jpg" alt="ind"></figure>
+              </div>   
+          </div> 
+      </div>  
+  </section>
+  
+  <!-- Parallax -->
+  <div class="parallax-overlay">
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="img/parallax1.jpg">
+      </div>
+      <div class="parallax-text center hide-on-small-and-down">
+          <h2 class="yellow-text" style="text-shadow: 2px 2px 2px black;">Only 240 Days & 5 Hours</h2>
+          <div class="container" >
+             <h5>Buy The Tickets And Enjoy!</h5>
+            <p class="white-text"> Integer sollicitudin ligula non enim sodales, non lacinia nunc ornare. Sed commodo tempor dapibus tortor volutpat, eget rhoncus nisi fringilla. Phasellus ornare risus ineuismod varius.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  
+  <!-- TESTIMONIALS-->
+  <section class="container">
+      <div class="row">
+          <div class="col s12 center">
+              <h3>TESTIMONIALS</h3>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/testi-2.jpg" class="responsive-img">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">RICK STAIN CLIMBING<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">Read More</a></p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">RICK STAIN CLIMBING<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/testi.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">RICK STAIN CLIMBING<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">Read More</a></p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">RICK STAIN CLIMBING<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="img/testi-1.jpg">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">RICK STAIN CLIMBING<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">Read More</a></p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">RICK STAIN CLIMBING<i class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                  </div>
+                </div>
+          </div>
+          
+        </div>
+  </section>
+  
+  <!-- Parallax -->
+  <div class="parallax-overlay">
+      <div class="parallax-container">
+        <div class="parallax">
+          <img src="img/parallax2.jpg">
+        </div>
+        <div class="parallax-text center hide-on-small-and-down">
+            <h2 class="yellow-text" style="text-shadow: 2px 2px 2px black;">100% ULTRA RESPONSIVE!</h2>
+            <div class="container" >
+              <p class="white-text"> Integer sollicitudin ligula non enim sodales, non lacinia nunc ornare. Sed commodo tempor dapibus tortor volutpat, eget rhoncus nisi fringilla. Phasellus ornare risus ineuismod varius.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    
+  <!-- Event Speakers -->
+  <section class="section container">
+      <div class="row">
+          <div class="col s12 center">
+              <h3>EVENT SPEAKERS</h3>
+              <div class="divider"></div>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col s4 m4">
+              <img src="img/speaker-1.jpg" alt="ind" class="responsive-img">
+              <div class="center">
+                <h5>Ted Midgley</h5>
+                <p class="grey-text lighten-1">CEO & Web Developer</p>
+              </div> 
+            </div>
+            <div class="col s4 m4">
+              <div class="center">
+                <img src="img/speaker-2.jpg" alt="ind" class="responsive-img">
+                <h5>Doray Dexpolorer</h5>
+                <p class="grey-text lighten-1">Traveller</p>
+              </div>
+            </div>
+            <div class="col s4 m4">
+                <img src="img/speaker-3.jpg" alt="ind" class="responsive-img">
+              <div class="center">
+                <h5>Norman Dog</h5>
+                <p class="grey-text lighten-1">Founder</p>
+              </div>
+            </div>
+        </div>
+  </section>
+  <div class="divider"></div>
+  
+  <!-- Event Sponsors -->
+  <section class="section container">
+      <div class="row">
+          <div class="col s12 center">
+              <h3>EVENT SPONSOR</h3>
+              <div class="divider"></div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col s6 m3">
+            <img src="img/icon1.png" alt="icon" class="responsive-img">
+          </div>
+          <div class="col s6 m3">
+              <img src="img/icon2.png" alt="icon" class="responsive-img">
+          </div>
+          <div class="col s6 m3">
+              <img src="img/icon3.png" alt="icon" class="responsive-img">
+            </div>
+            <div class="col s6 m3">
+              <img src="img/icon4.png" alt="icon" class="responsive-img">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6 m3">
+              <img src="img/icon5.png" alt="icon" class="responsive-img">
+          </div>
+          <div class="col s6 m3">
+            <img src="img/icon6.png" alt="icon" class="responsive-img">
+          </div>
+          <div class="col s6 m3">
+            <img src="img/icon7.png" alt="icon" class="responsive-img">
+          </div>
+          <div class="col s6 m3">
+            <img src="img/icon8.png" alt="icon" class="responsive-img">
+          </div>
+        </div>
+  </section>
+
+
+  <section class="section yellow ">
+    <div class="container center">
+        <div class="row " style="font-weight: bold; font-size:xx-large;">
+            <p class="black-text">Stay Up to date With Your Favorite Events!</p>
+        </div>
+        <p style="font-size: small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta odit libero
+            delectus fugit, omnis autem non, est animi
+            maiores cupiditate veritatis doloribus laboriosam molestiae. Eum, quae! Maiores sunt dolore eaque.</p>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col m9 offset-m2" style="display: flex;">
+                <input class="grey lighten-2" id="" type="search" placeholder="You're email address"
+                    style="border-radius: 20px; margin-right: 10px">
+                <a class="btn black yellow-text waves-effect waves-black center pulse"
+                    style="padding-top: 5px; border-radius: 20px; font-size: 20px; height: 45px;">SUBSCRIBE</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- <div style="margin-top: 1000px;"></div> -->
+<!-- end of code -->
+<!-- Footer -->
+<footer class="section black white-text center">
+    <div>
+        <p class="flow-text" style="font-size: small;">R5 EVENT MEDIA CORP. &copy; 2019</p>
+    </div>
+    <div>
+        <p class="flow-text" style="font-size: smaller; color: yellow;">STAY CONNECTED</p>
+    </div>
+    <div>
+        <a href="fb.com"><i class="fab fa-facebook-square white-text"></i> </a>
+        <a href="fb.com"><i class="fab fa-twitter-square white-text"></i> </a>
+        <a href="fb.com"><i class="fab fa-instagram white-text"></i> </a>
+        <a href="fb.com"><i class="fab fa-linkedin white-text"></i> </a>
+    </div>
+
+</footer>
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-button').dropdown({
+                constrainWidth: false,
+                hover: true,
+                belowOrigin: true,
+                alignment: 'left'
+            });
+
+            // JAVASCRIPT START HERE //
+            // side navbar
+            $('.button-collapse').sideNav();
+
+            // carousel slider
+            $('.slider').slider({
+                indicators: false,
+                height: 600,
+                transition: 500,
+                interval: 6000
+            });
+
+            // push pin
+            $('.target').pushpin({
+                top: 0,
+                bottom: 1000,
+                offset: 0
+            });
+
+            $('.pushpin-demo-nav').each(() => {
+                let $this = $(this);
+                let $target = $('#' + $(this).attr('data-target'));
+                $this.pushpin({
+                    top: $target.offset().top,
+                    bottom: $target.offset().top + $target.outerHeight() - $this.height()
+                });
+            });
+
+            
+
+        });
+
+    // Hide Sections
+    $('#filters').hide();
+ 
+ $('#search').click(function (e) {
+   $(document).ready(function () {
+     // Show sections
+     $('#filters').fadeIn();
+     
+     // Hide preloader
+     $('.loader').fadeOut();
+
+     $('.chips-input').material_chip({
+       placeholder: 'Enter a tag',
+       secondaryPlaceholder: '+tag',
+       autocompleteOptions: {
+         data: {
+           'basketball': null,
+           'volleyball': null,
+           'badminton': null,
+           'wedding': null,
+           'violinist':null
+         }
+       }
+     });
+   });
+   e.preventDefault();
+ });
+
+  // JAVASCRIPT START HERE //
+  $(document).ready(function () {
+     // Show sections
+     $('select').material_select();
+     $('.parallax').parallax();
+     $('.multi-select-calender').pignoseCalender({
+         multiple: true,
+         select: function(date, obj) {
+           obj.calender.parent().next().show().text('You selected ' + 
+             (date[0] === null? 'null':date[0].format('YYYY-MM-DD')) +
+             '~' +
+             (date[1] === null? 'null':date[1].format('YYYY-MM-DD')) +
+             '.');
+       }
+     });
+
+   });
+    </script>
+</body>
+
+</html>
