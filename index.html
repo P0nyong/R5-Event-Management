@@ -18,33 +18,59 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav class="black">
+<!-- navbar  -->
+<div class="navbar-fixed">
+    <nav class="black">
+        <div class="container">
             <div class="nav-wrapper">
-                <div class="container">
-                    <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="img/logo.png" style="width: 50px; margin-top: 2px;"></a>
-                    <ul id="nav-mobile" class="right hide-on-small-and-down">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="aboutUs.html">About</a>
-                        </li>
-                        <li class="active">
-                            <a href="gallery.html">Gallery</a>
-                        </li>
-                        </li>
-                        <li>
-                            <a href="events.html">Events</a>
-                        </li>
-                        <li>
-                            <a href="bookform.html" class="btn yellow">BOOK NOW</a>
-                        </li>
-                    </ul>
-                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-small-and-down">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutUs.html">About</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    </li>
+                    <li>
+                        <a href="events.html">Events</a>
+                    </li>
+                    <li>
+                        <a href="bookform.html" class=" btn yellow">BOOK NOW</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
+</div>
+<!-- Side nav -->
+<ul class="side-nav" id="mobile-nav">
+    <li>
+        <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="img/logo.png"
+                style="width: 50px; margin-top: 2px;"></a>
+        <a href="#">R5 Event Management</a>
+    </li>
+    <li>
+        <a href="aboutUs.html">About</a>
+    </li>
+    <li>
+        <a href="gallery.html">Gallery</a>
+    </li>
+    <li>
+        <a href="events.html">Events</a>
+    </li>
+    <li>
+        <a href="bookform.html" class="btn yellow">BOOK NOW</a>
+    </li>
+</ul>
+
+    
+
 
     <!-- content -->
     <!-- SLIDER -->
@@ -313,6 +339,18 @@
                 interval: 6000
             });
 
+            // Counter
+            $('.count').each(function() {
+                $(this).prop('Counter', 0).animate({
+                    Counter: $(this).text()
+                }, {
+                        duration: 21000,
+                        easing: 'swing',
+                        step: now => {
+                            $(this).text(Math.ceil(now));
+                        }
+                    });
+            });
 
 
 

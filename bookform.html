@@ -23,33 +23,55 @@
     <!-- Navbar -->
     <header>
        <!-- Navbar -->
-       <div class="navbar-fixed">
+      <div class="navbar-fixed">
         <nav class="black">
+          <div class="container">
             <div class="nav-wrapper">
-                <div class="container">
-                    <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="img/logo.png" style="width: 50px; margin-top: 2px;"></a>
-                    <ul id="nav-mobile" class="right hide-on-small-and-down">
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="aboutUs.html">About</a>
-                        </li>
-                        <li class="active">
-                            <a href="gallery.html">Gallery</a>
-                        </li>
-                        </li>
-                        <li>
-                            <a href="events.html">Events</a>
-                        </li>
-                        <li>
-                            <a href="bookform.html" class="btn yellow">BOOK NOW</a>
-                        </li>
-                    </ul>
-                </div>
+              <a href="#" data-activates="mobile-nav" class="button-collapse">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul id="nav-mobile" class="right hide-on-small-and-down">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="aboutUs.html">About</a>
+                </li>
+                <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                </li>
+                <li>
+                  <a href="events.html">Events</a>
+                </li>
+                <li>
+                  <a href="bookform.html" class=" btn yellow">BOOK NOW</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
-    </div>    
+      </div>
+      <!-- Side nav -->
+      <ul class="side-nav" id="mobile-nav">
+        <li>
+          <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="img/logo.png"
+              style="width: 50px; margin-top: 2px;"></a>
+          <a href="#">R5 Event Management</a>
+        </li>
+        <li>
+          <a href="aboutUs.html">About</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="events.html">Events</a>
+        </li>
+        <li>
+          <a href="bookform.html" class="btn yellow">BOOK NOW</a>
+        </li>
+      </ul>
 
     </header>
 
@@ -159,7 +181,8 @@
 <script>
   $(document).ready(function () {
     // Init Sidenav
-    
+     $('.button-collapse').sideNav();
+
 $('select').material_select();
 
 $('.datepicker').on('mousedown', function(e){

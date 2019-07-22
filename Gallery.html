@@ -19,9 +19,11 @@
 
     <div class="navbar-fixed">
         <nav class="black">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="img/logo.png" style="width: 50px; margin-top: 2px;"></a>
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" data-activates="mobile-nav" class="button-collapse">
+                        <i class="material-icons">menu</i>
+                    </a>
                     <ul id="nav-mobile" class="right hide-on-small-and-down">
                         <li>
                             <a href="index.html">Home</a>
@@ -29,7 +31,7 @@
                         <li>
                             <a href="aboutUs.html">About</a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="gallery.html">Gallery</a>
                         </li>
                         </li>
@@ -37,13 +39,33 @@
                             <a href="events.html">Events</a>
                         </li>
                         <li>
-                            <a href="bookform.html" class="btn yellow">BOOK NOW</a>
+                            <a href="bookform.html" class=" btn yellow">BOOK NOW</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
+    <!-- Side nav -->
+    <ul class="side-nav" id="mobile-nav">
+        <li>
+            <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="img/logo.png"
+                    style="width: 50px; margin-top: 2px;"></a>
+            <a href="#">R5 Event Management</a>
+        </li>
+        <li>
+            <a href="aboutUs.html">About</a>
+        </li>
+        <li>
+            <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+            <a href="events.html">Events</a>
+        </li>
+        <li>
+            <a href="bookform.html" class="btn yellow">BOOK NOW</a>
+        </li>
+    </ul>
     <div class="row">
         <div class="col s12 center">
             <section class="main-header">
@@ -265,9 +287,10 @@
                 alignment: 'left'
             });
 
+                 $('.button-collapse').sideNav();
 
             // JAVASCRIPT START HERE //
-
+           
             //      SLIDER
 
             $('.slider').slider({
