@@ -18,128 +18,33 @@
 </head>
 
 <body>
-    <!-- Navbar -->
     <div class="navbar-fixed">
-        <nav class="black nav-wrapper">
-            <div class="container">
-                <a href="index.html" class="brand-logo left" style="color: yellow;"><img class="responsive-img"
-                        id="logo" src="img/r5.png" style="width: 50px; margin-top: 2px;"> EVENT MEDIA CORP.</a>
-                <div id="" class="right hide-on-small-and-down">
-                    <button class="btn black-text yellow waves-effect waves-black">BOOK NOW</button>
-                </div>
-            </div>
-        </nav>
-    </div>
-
-    <div class="navbar-fixed">
-        <nav class="grey darken-4">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a class="button-collapse" data-activates="mobile-nav" href="#">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
+        <nav class="black">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="index.html" class="brand-logo left"><img class="responsive-img" id="logo" src="img/logo.png" style="width: 50px; margin-top: 2px;"></a>
+                    <ul id="nav-mobile" class="right hide-on-small-and-down">
                         <li>
-                            <a href="#">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#">Gallery</a>
+                            <a href="aboutUs.html">About</a>
+                        </li>
+                        <li class="active">
+                            <a href="gallery.html">Gallery</a>
+                        </li>
                         </li>
                         <li>
                             <a href="events.html">Events</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        
-
-                        <!-- DROPDOWN TRIGGER -->
-                        <li>
-                            <a class="dropdown-button" data-activates="my-dropdown" href="#!">Dropdown
-                                <i class="material-icons right">arrow_drop_down</i>
-                            </a>
-                        </li>
-                        <!-- ICON LINK -->
-                        <li>
-                            <a href="#">
-                                <i class="material-icons">person</i>
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-nav">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="events.html">Events</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
+                            <a href="bookform.html" class="btn yellow">BOOK NOW</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-        <!-- DROPDOWN MENU -->
-        <ul id="my-dropdown" class="dropdown-content">
-            <li>
-                <a href="#">Ronnie</a>
-            </li>
-            <li>
-                <a href="#">Maureen</a>
-            </li>
-            <li>
-                <a href="#">Ochie</a>
-            </li>
-        </ul>
     </div>
-    <!-- push pin -->
-        <nav class="pushpin-demo-nav">
-            <div class="nav-wrapper black">
-                <div class="container">
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li>
-                            <a href="#!">SIGN IN</a>
-                        </li>
-                        <li>
-                            <a href="#!">SIGN UP</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    <!-- <div class="">
-        <nav  class=" pushpin-demo-nav">
-            <div class="nav-wrapper  blue">
-                <div class="container">
-                    <span class="white-text" ><i class="fab fa-phone-square"></i>
-                        0917-123-4567 || <i class="fab fa-envelope-square yellow-text"></i> r5event@gmail.com</span>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li>
-                            <a href="#!">SIGN IN</a>
-                        </li>
-                        <li>
-                            <a href="#!">SIGN UP</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div> -->
-
-
-
 
     <!-- content -->
     <!-- SLIDER -->
@@ -165,7 +70,7 @@
                 <img src="img/carousel3.jpg">
                 <!-- RIGHT ALIGN CAPTION -->
                 <div class="caption right-align">
-                    <h3>Churba</h3>
+                    <h3>Conference</h3>
                     <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
                 </div>
             </li>
@@ -192,11 +97,11 @@
                             </div>
                             <div class="col s8">
                                 <div></div>
-                                <div class="" style="font-size: large;"><i class="fas fa-calendar-alt"></i> Santos and
-                                    Chan
-                                    Wedding</div>
+                                <div class="" style="font-size: large;"><i class="fas fa-calendar-alt"></i>
+                                    <p class="hide-on-small-and-down">Santos and Chan Wedding</p>
+                                </div>
                                 <div>
-                                    <p>The much awaited wedding of the year!</p>
+                                    <p class="hide-on-small-and-down">The much awaited wedding of the year!</p>
                                 </div>
                                 <div></div>
                             </div>
@@ -207,7 +112,8 @@
                             </div>
                             <div class="col s8">
                                 <div></div>
-                                <div style="font-size: large;"><i class="fas fa-calendar-alt"></i> James Ingram Concert
+                                <div style="font-size: large;"><i class="fas fa-calendar-alt"></i>
+                                    <p>James Ingram Concert</p>
                                 </div>
                                 <div>
                                     <p>Let us sing with his heart warming and unforgetable songs!</p>
@@ -230,8 +136,7 @@
                     <div class="divider"></div>
                     <br>
                     <div class="video-container">
-                        <iframe width="auto" height="auto" frameborder="0" allowfullscreen
-                            src="https://www.youtube.com/embed/JM9jtcapo0s">
+                        <iframe width="auto" height="auto" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/JM9jtcapo0s">
 
                         </iframe>
                     </div>
@@ -292,10 +197,7 @@
                             <p style="font-size: 22px; font-weight: bolder;">The new rockstar is coming!</p>
                             <p style="font-size: 12px; font-weight:light;">July 10, 2019</p>
                             <p style="font-size: 12px; font-weight: bold;"> By: Ronnie Concepcion</p><br>
-                            <p style="text-justify: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Accusamus molestias atque facere eos distinctio harum
-                                dignissimos. E dolor impedit, eaque voluptas animi tempora blanditiis delectus ea, est
-                                provident deserunt repellat!</p>
+                            <p style="text-justify: auto;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias atque facere eos distinctio harum dignissimos. E dolor impedit, eaque voluptas animi tempora blanditiis delectus ea, est provident deserunt repellat!</p>
                         </div>
                         <div class="right">
                             <a href="#" class="black-text">Read more....</a>
@@ -309,18 +211,11 @@
                             <img src="img/news2.jpg">
                         </div>
                         <div class="card-content">
-                            <p style="font-size: 22px; font-weight: bolder;">Golden Wedding Anniversary: Let's vow
-                                again!
+                            <p style="font-size: 22px; font-weight: bolder;">Golden Wedding Anniversary: Let's vow again!
                             </p>
                             <p style="font-size: 12px; font-weight:light;">July 16, 2019</p>
                             <p style="font-size: 12px; font-weight: bold;"> By: Roxanne Jean VIllanueva</p><br>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias atque facere
-                                eos
-                                distinctio
-                                harum dignissimos. E dolor impedit, eaque voluptas animi tempora blanditiis delectus ea,
-                                est
-                                provident
-                                deserunt repellat!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias atque facere eos distinctio harum dignissimos. E dolor impedit, eaque voluptas animi tempora blanditiis delectus ea, est provident deserunt repellat!</p>
                         </div>
                         <div class="right">
                             <a href="#" class="black-text">Read more....</a>
@@ -337,13 +232,7 @@
                             <p style="font-size: 22px; font-weight: bolder;">Why party is important to our lives?</p>
                             <p style="font-size: 12px; font-weight:light;">July 19, 2019</p>
                             <p style="font-size: 12px; font-weight: bold;"> By: Maureen Angana</p><br>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias atque facere
-                                eos
-                                distinctio
-                                harum
-                                dignissimos. E dolor impedit, eaque voluptas animi tempora blanditiis delectus ea, est
-                                provident
-                                deserunt repellat!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus molestias atque facere eos distinctio harum dignissimos. E dolor impedit, eaque voluptas animi tempora blanditiis delectus ea, est provident deserunt repellat!</p>
                         </div>
                         <div class="right">
                             <a href="#" class="black-text">Read more....</a>
@@ -362,20 +251,16 @@
             <div class="row " style="font-weight: bold; font-size:xx-large;">
                 <p class="black-text">Stay Up to date With Your Favorite Events!</p>
             </div>
-            <p style="font-size: small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta odit libero
-                delectus fugit, omnis autem non, est animi
-                maiores cupiditate veritatis doloribus laboriosam molestiae. Eum, quae! Maiores sunt dolore eaque.</p>
-        
-            </div>
-            <br>
+            <p style="font-size: small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta odit libero delectus fugit, omnis autem non, est animi maiores cupiditate veritatis doloribus laboriosam molestiae. Eum, quae! Maiores sunt dolore eaque.</p>
+
+        </div>
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col m9 offset-m2" style="display: flex;">
-                  
-                    <input class="grey lighten-2" id="" type="search" placeholder="You're email address"
-                        style="border-radius: 20px; margin-right: 10px">
-                    <a class="btn black yellow-text waves-effect waves-black center pulse"
-                        style="padding-top: 5px; border-radius: 20px; font-size: 20px; height: 45px;">SUBSCRIBE</a>
+
+                    <input class="grey lighten-2" id="" type="search" placeholder="You're email address" style="border-radius: 20px; margin-right: 10px">
+                    <a class="btn black yellow-text waves-effect waves-black center pulse" style="padding-top: 5px; border-radius: 20px; font-size: 20px; height: 45px;">SUBSCRIBE</a>
                 </div>
             </div>
         </div>
@@ -408,7 +293,7 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('.dropdown-button').dropdown({
                 constrainWidth: false,
                 hover: true,
@@ -428,23 +313,8 @@
                 interval: 6000
             });
 
-            // push pin
-            $('.target').pushpin({
-                top: 0,
-                bottom: 1000,
-                offset: 0
-            });
 
-            $('.pushpin-demo-nav').each(() => {
-                let $this = $(this);
-                let $target = $('#' + $(this).attr('data-target'));
-                $this.pushpin({
-                    top: $target.offset().top,
-                    bottom: $target.offset().top + $target.outerHeight() - $this.height()
-                });
-            });
 
-            
 
         });
     </script>
